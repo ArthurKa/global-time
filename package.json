@@ -1,0 +1,37 @@
+{
+  "name": "global-time",
+  "version": "1.2.4",
+  "description": "Gets global time in milliseconds from https://time.gov",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "global",
+    "time",
+    "utc",
+    "global time",
+    "real time",
+    "time.gov"
+  ],
+  "author": "ArthurKa",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "xml-parser": "^1.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurKa/global-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArthurKa/global-time/issues"
+  },
+  "homepage": "https://github.com/ArthurKa/global-time#readme"
+}
