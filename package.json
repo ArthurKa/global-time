@@ -1,6 +1,6 @@
 {
   "name": "global-time",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Gets global time in milliseconds from https://time.gov",
   "main": "index.js",
   "scripts": {
