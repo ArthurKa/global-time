@@ -35,7 +35,7 @@ describe('global-time', () => {
     assert.ok(strTimes.some(e => !e.endsWith('000')));
   });
 
-  it('probably work correctly', async () => {
+  it('probably works correct', async () => {
     const testingTime1 = await globalTime();
     const realTime1 = Date.now();
 
@@ -47,6 +47,6 @@ describe('global-time', () => {
     const diffTesting = Math.round(testingTime2 - testingTime1);
     const diffReal = Math.round(realTime2 - realTime1);
     const diff = Math.abs(diffTesting - diffReal);
-    assert.ok(diff <= 10);
+    assert.ok(diff <= 50);
   });
 });
