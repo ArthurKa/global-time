@@ -26,3 +26,5 @@ const globalTime = require('global-time');
 ``` bash
 $ npm test
 ```
+
+Your improve suggestions and bug reports are welcome any time.
