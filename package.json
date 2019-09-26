@@ -1,18 +1,17 @@
 {
   "name": "global-time",
-  "version": "1.3.0",
-  "description": "Gets global time in milliseconds from https://time.gov",
+  "version": "1.3.1",
+  "description": "Gets UTC real time from http://worldtimeapi.org/api/timezone/Etc/UTC",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
   "keywords": [
-    "global",
     "time",
     "utc",
     "global time",
     "real time",
-    "time.gov"
+    "world time"
   ],
   "author": "ArthurKa",
   "license": "ISC",
