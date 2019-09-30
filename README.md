@@ -1,4 +1,4 @@
-Gets UTC real time in milliseconds with 0.001 precision from http://worldtimeapi.org/api/timezone/Etc/UTC.
+Gets UTC real time in milliseconds with 0.001 precision from http://worldtimeapi.org/api/timezone/Etc/UTC.\
 No longer supports https://time.gov/actualtime.cgi due missing time value.
 
 **It's completely not dependent on your system or local time.**
