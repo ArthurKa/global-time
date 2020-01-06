@@ -1,3 +1,5 @@
+# global-time
+
 Gets UTC real time in milliseconds with 0.001 precision from http://worldtimeapi.org/api/timezone/Etc/UTC.\
 No longer supports https://time.gov/actualtime.cgi due missing time value.
 
@@ -26,5 +28,7 @@ const globalTime = require('global-time');
 ``` bash
 $ npm test
 ```
+
+---
 
 Your improve suggestions and bug reports are welcome any time.
