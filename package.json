@@ -1,6 +1,6 @@
 {
   "name": "global-time",
-  "version": "1.3.8",
+  "version": "1.3.9",
   "description": "Gets UTC real time from http://worldtimeapi.org/api/timezone/Etc/UTC.",
   "main": "globalTime.js",
   "scripts": {
@@ -13,7 +13,10 @@
     "real time",
     "world time"
   ],
-  "author": "ArthurKa",
+  "author": {
+    "name": "ArthurKa",
+    "email": "arthur.katruk@gmail.com"
+  },
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.0"
