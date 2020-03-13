@@ -20,4 +20,6 @@ const globalTime = require('global-time');
 })();
 ```
 
-<footer>
+<testing>
+
+<suggestions>
