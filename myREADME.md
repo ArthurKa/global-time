@@ -8,7 +8,7 @@ From v1.3.0 no longer supports https://time.gov/actualtime.cgi due missing time 
 <installation>
 
 ## Usage
-``` js
+```ts
 const globalTime = require('global-time');
 
 (async () => {
