@@ -9,14 +9,14 @@ From v1.3.0 no longer supports https://time.gov/actualtime.cgi due missing time 
 
 ## Usage
 ```ts
-const globalTime = require('global-time');
+import globalTime from './global-time';
 
 (async () => {
   const time = await globalTime();
   const date = new Date(time);
 
-  console.log(time);  // 1560529986678.603
-  console.log(date);  // 2019-06-14T16:33:06.678Z
+  console.log(time);  // 1616323147279.481
+  console.log(date);  // 2021-03-21T10:39:07.279Z
 })();
 ```
 
