@@ -3,7 +3,7 @@
 [![Commits](https://flat.badgen.net/github/commits/ArthurKa/global-time)](https://github.com/ArthurKa/global-time/commits/master)
 [![NPM-version](https://img.shields.io/badge/npm-v1.4.1-blue.svg?style=flat-square&&logo=npm "Current NPM-version")](https://www.npmjs.com/package/global-time/v/1.4.1)
 [![Total downloads](https://img.shields.io/npm/dt/global-time?style=flat-square "Total downloads for all the time")](https://npm-stat.com/charts.html?package=global-time)
-[![Developed by](https://img.shields.io/badge/developed_by-ArthurKa-blueviolet.svg?style=flat-square "Have any questions? You are always welcome.")](https://github.com/ArthurKa/global-time/issues)\
+[![Developed by](https://img.shields.io/badge/developed_by-ArthurKa-blueviolet.svg?style=flat-square "GitHub")](https://github.com/ArthurKa)\
 [![Publish size](https://flat.badgen.net/packagephobia/publish/global-time@1.4.1?label=publish 'Publish size of global-time@1.4.1')](https://packagephobia.now.sh/result?p=global-time@1.4.1)
 [![Install size](https://flat.badgen.net/packagephobia/install/global-time@1.4.1?label=install 'Install size of global-time@1.4.1')](https://packagephobia.now.sh/result?p=global-time@1.4.1)
 [![Minified size](https://img.shields.io/bundlephobia/min/global-time@1.4.1?style=flat-square&label=minified "Minified size of global-time@1.4.1")](https://bundlephobia.com/result?p=global-time@1.4.1)
@@ -17,8 +17,8 @@ From v1.3.0 no longer supports https://time.gov/actualtime.cgi due missing time 
 **It's completely not dependent on machine local time.**
 
 ## Installation
-`global-time` is available via npm:
-``` bash
+`global-time` is available via NPM:
+```bash
 $ npm i global-time@1.4.1
 ```
 
@@ -36,7 +36,7 @@ import globalTime from 'global-time';
 ```
 
 ## Testing
-``` bash
+```bash
 $ npm test
 ```
 

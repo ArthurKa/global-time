@@ -9,7 +9,7 @@ From v1.3.0 no longer supports https://time.gov/actualtime.cgi due missing time 
 
 ## Usage
 ```ts
-import globalTime from './global-time';
+import globalTime from './global-time/src';
 
 (async () => {
   const time = await globalTime();
