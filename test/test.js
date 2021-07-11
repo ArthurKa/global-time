@@ -3,7 +3,7 @@
 const assert = require('assert');
 const globalTime = require('..');
 
-const sleep = s => new Promise(res => setTimeout(res, s*1000));
+const sleep = s => new Promise(res => setTimeout(res, s * 1000));
 
 describe('global-time', () => {
   it('should be a function', () => {
@@ -14,7 +14,7 @@ describe('global-time', () => {
     let result = true;
     try {
       await globalTime();
-    } catch(e) {
+    } catch {
       result = false;
     }
     assert.ok(result);
