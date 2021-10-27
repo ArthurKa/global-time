@@ -12,7 +12,7 @@ export default async function globalTime() {
   let obj: Timezone;
   try {
     obj = await fetch(url).then(e => e.json());
-  } catch (e) {
+  } catch(e: any) {
     if(e.code === 'ENOTFOUND') {
       throw new Error(`"${url}" is currently unavailable.`);
     } else if(e.type === 'invalid-json') {
