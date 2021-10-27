@@ -1,6 +1,6 @@
 {
   "name": "global-time",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Gets UTC real time from http://worldtimeapi.org/api/timezone/Etc/UTC.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
